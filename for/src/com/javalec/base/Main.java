@@ -12,9 +12,61 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		Exercise_05  ex = new Exercise_05(sc);
-		ex.exercise_05();
+		ExpertFor  ex = new ExpertFor(sc);
+		ex.exercise_3();
 	}
+}
+
+class ExpertFor {
+	
+	Scanner sc;
+	
+	ExpertFor(Scanner sc){
+		this.sc = sc;
+	}
+	
+	void exercise_3() {
+		int inputNum = 0;
+		
+		System.out.println("단을 입력하세요 :");
+		inputNum = sc.nextInt();
+		
+		for(int i = 1; i <=9; i += 3) {
+			System.out.println(inputNum + " X " + i + " = "+ (inputNum * 1) + "\t");
+			System.out.println(inputNum + " X " + i + " = "+ (inputNum * 2) + "\t");
+			System.out.println(inputNum + " X " + i + " = "+ (inputNum * 3) + "\t");
+		}
+	}
+	
+	void exercise_2() {
+		int startPoint = 0;
+		int endPoint = 0;
+		int low = 1;
+		
+		System.out.print("Input your number : ");
+		startPoint = sc.nextInt();
+		endPoint = startPoint + 3;
+		
+		for (int i = startPoint; i <= endPoint; i ++) {
+			System.out.print(i + " X " + low + " = " + ( i * low ) + "\t");
+			
+			if ( low < 9 && i == endPoint ) {
+				low ++;
+				i = startPoint - 1;
+				System.out.println();
+			}
+		}
+	}
+	
+	void expertFor() {
+		for (int i = 1; i < 10; i++) {
+			for (int j = 2; j < 10; j++) {
+				System.out.print(j + " X " + i + " = " + ( j * i ) + "\t");
+			}
+			System.out.println();
+		}
+	}
+	
 }
 
 class Exercise_05 {
