@@ -1,3 +1,8 @@
+/*
+ * 2021 04 06 윤재필
+ * 강의내용대로 프로그램 작 
+ */
+
 package com.javalec.array;
 
 import java.util.Scanner;

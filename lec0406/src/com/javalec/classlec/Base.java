@@ -1,5 +1,6 @@
 package com.javalec.classlec;
 
+import java.util.Calendar;
 import java.util.Scanner;
 
 public class Base {
@@ -10,7 +11,20 @@ public class Base {
 		this.sc = sc;
 	}
 	
+	public void base_3() {
+		Calendar calendar = Calendar.getInstance();
+		
+		int year = calendar.get(Calendar.YEAR);
+		int month = calendar.get(Calendar.MONTH) + 1;
+		int day = calendar.get(Calendar.DAY_OF_MONTH);
+		
+		int hour = calendar.get(Calendar.HOUR_OF_DAY);
+		int minute = calendar.get(Calendar.MINUTE);
+		int second = calendar.get(Calendar.SECOND);
+	}
+	
 	//String의 문제점을 해결하기 위해 나온 문자열 선언자들.
+	//버퍼보단 빌더가 좀 빠르긴 함
 	public void base_2(){
 		String string = new String("abcdef");
 		
@@ -23,6 +37,16 @@ public class Base {
 
 		stringBuilder.delete(3, 6);
 		System.out.println(stringBuilder);
+		//---------------------------------------------------------------------
+		StringBuffer stringBuffer = new StringBuffer("abcdef");
+		stringBuffer.append("hijklmn");
+		System.out.println(stringBuffer);
+		
+		stringBuffer.insert(3, "zzz");
+		System.out.println(stringBuffer);
+		
+		stringBuffer.delete(3, 6);
+		System.out.println(stringBuffer);
 	}
 	
 	public void base_1() {
