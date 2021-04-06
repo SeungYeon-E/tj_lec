@@ -2,12 +2,15 @@ package com.javalec.array;
 
 import java.util.Scanner;
 
+import com.javalec.classlec.Base;
+
 public class MainClass {
 	static Scanner sc = new Scanner (System.in);
 	
 	public static void main(String agrs[]) {
 		Exercise ex = new Exercise(sc);
-		ex.exercise_14();
+		Base base = new Base(sc);
+		base.base_2();
 		
 	}
 }
@@ -20,7 +23,7 @@ class Exercise{
 	
 	//고객의 입/출금현황을 관리하는 프로그램(고객은 1,2,3,4,5)
 	void exercise_14() {
-		int[] customer = new int[4];
+		int[] customer = new int[5];
 		
 		while(true) {
 			System.out.println("1.입금\n2.출금\n3.현황\n4.종료");
@@ -33,10 +36,12 @@ class Exercise{
 			switch (choose) {
 			case 1: {
 				int inputCustomer = 0;
+				
 				System.out.print("고객 번호 : ");
 				inputCustomer = sc.nextInt() - 1;
 				System.out.print("금액 : ");
 				customer[inputCustomer] += sc.nextInt();
+				
 				System.out.println("입금결과 : 고객번호 : " + (inputCustomer + 1) + " 잔액 " + customer[inputCustomer]);
 				System.out.println("--------------------------------------------------");
 				break;
@@ -44,6 +49,7 @@ class Exercise{
 			case 2: {
 				int inputCustomer = 0;
 				int inputMoney = 0;
+				
 				System.out.print("고객 번호 : ");
 				inputCustomer = sc.nextInt() - 1;
 				System.out.print("금액 : ");
