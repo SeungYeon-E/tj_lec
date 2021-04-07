@@ -2,6 +2,7 @@ package com.javalec.base;
 
 import java.util.Scanner;
 
+import com.javalec.exercis4.Gagam;
 import com.javalec.exercise.Add;
 import com.javalec.exercise.Calc;
 import com.javalec.exercise.Div;
@@ -17,7 +18,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Running running = new Running(sc);
-		running.exercise_3();
+		running.exercise_4();
 	}	
 	
 
@@ -30,6 +31,19 @@ class Running{
 	public Running(Scanner sc) {
 		super();
 		this.sc = sc;
+	}
+	
+	void exercise_4() {
+		Gagam gagam;
+		int num1 = 0, num2 = 0;
+		
+		System.out.println("첫번째 숫자를 입력하세요.");
+		num1 = sc.nextInt();
+		System.out.println("두번째 숫자를 입력하세요.");
+		num2 = sc.nextInt();
+		
+		gagam = new Gagam(num1, num2);
+		gagam.run();
 	}
 	
 	void exercise_3() {
