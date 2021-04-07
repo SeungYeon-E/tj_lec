@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.javalec.function.AddNum"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Add"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Sub"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Mul"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Div"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Calc"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise2.Gugudan"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise3.Sumsum"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.javalec.exercis4.Gagam"/>
 </qualifiedTypeNameHistroy>
