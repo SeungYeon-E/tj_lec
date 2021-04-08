@@ -11,8 +11,22 @@
     <fullyQualifiedTypeName name="com.javalec.exercise.Calc"/>
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="com.javalec.exercise2.Gugudan"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.javalec.exercise3.Sumsum"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.javalec.exercis4.Gagam"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.javalec.inheritance.DmbCellPhone"/>
+    <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop1"/>
+    <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop2"/>
+    <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop3"/>
+    <fullyQualifiedTypeName name="com.javalec.ingeritance2.StoreHQ"/>
+    <fullyQualifiedTypeName name="com.javalec.inheritance.ex2.ThrowsClass"/>
+    <fullyQualifiedTypeName name="com.javalec.staticLec.FirstSon"/>
+    <fullyQualifiedTypeName name="com.javalec.staticLec.SecondSon"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child1"/>
+    <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Price"/>
+    <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child2"/>
+    <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child3"/>
+    <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Lunch"/>
 </qualifiedTypeNameHistroy>
