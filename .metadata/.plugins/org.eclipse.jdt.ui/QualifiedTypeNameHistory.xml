@@ -29,4 +29,10 @@
     <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child2"/>
     <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child3"/>
     <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Lunch"/>
+    <fullyQualifiedTypeName name="com.javalec.collection.exercise.ArrayListEx"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.javalec.collection.base.Student"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="com.javalec.collection.base.HashMapLec"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
