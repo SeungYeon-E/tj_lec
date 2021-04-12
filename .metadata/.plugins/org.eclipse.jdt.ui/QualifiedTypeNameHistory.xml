@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="com.javalec.exercise2.Gugudan"/>
     <fullyQualifiedTypeName name="com.javalec.exercise3.Sumsum"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.javalec.exercis4.Gagam"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.javalec.inheritance.DmbCellPhone"/>
@@ -30,9 +29,24 @@
     <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Child3"/>
     <fullyQualifiedTypeName name="com.javalec.abstractLec_ex.Lunch"/>
     <fullyQualifiedTypeName name="com.javalec.collection.exercise.ArrayListEx"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.javalec.collection.base.Student"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.javalec.collection.base.HashMapLec"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="com.javalec.GUI02.UseComboBox"/>
+    <fullyQualifiedTypeName name="com.javajec.controller.Main.Running"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Exercise01"/>
+    <fullyQualifiedTypeName name="com.javalec.base.UseCheckBox01"/>
+    <fullyQualifiedTypeName name="javax.swing.JCheckBox"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.model02"/>
+    <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Exercise02"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="com.javajec.controller.Main"/>
+    <fullyQualifiedTypeName name="com.javalec.exercise.Exersice03"/>
 </qualifiedTypeNameHistroy>

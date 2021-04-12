@@ -20,13 +20,15 @@ public class Exersice03 {
 	private JFrame frame;
 	private JTextField tfNum1;
 	private JTextField tfNum2;
+	/*
+	 * class로 캡슐화 가능하지만,
+	 * 규모가 크지 않으므로 빠른완성을 위해 각각 배열로 선언 
+	 */
 	ArrayList<JCheckBox> checkArr = new ArrayList<JCheckBox>();
 	ArrayList<JLabel> labelArr = new ArrayList<JLabel>();
 	String[] operator = {"+", "-", "x", "/"};
 
-	/**
-	 * Launch the application.
-	 */
+	//실행 메서
 	public static void run() {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
@@ -40,16 +42,12 @@ public class Exersice03 {
 		});
 	}
 
-	/**
-	 * Create the application.
-	 */
+	//생성
 	public Exersice03() {
 		initialize();
 	}
 
-	/**
-	 * Initialize the contents of the frame.
-	 */
+	//frame에 사용할 아이템을 부착
 	private void initialize() {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
@@ -110,18 +108,20 @@ public class Exersice03 {
 		tfNum2.setBounds(22, 57, 130, 26);
 		frame.getContentPane().add(tfNum2);
 	}
-	
+	//각 체크박스의 이벤트는 모두 중복되므로, ActionListener를 참조한
+	//내부클래스를 생성함으로써 이벤트를 일괄적으로 등록한다.
 	class clac implements ActionListener{
 
 		@Override
 		public void actionPerformed(ActionEvent e) {
+			//빈값을 0으로 먼저 대체한
 			if (tfNum1.getText().equals("")) {
 				tfNum1.setText("0");
 			}
 			if (tfNum2.getText().equals("")) {
 				tfNum2.setText("0");
 			}
-			
+			//checkbox, operator, label 모두 1:1:1 대응이므로, label에 값을 입력
 			for (int i = 0; i < 4; i ++) {
 				if (checkArr.get(i).isSelected() == true) {
 					labelArr.get(i).setText(setLable(operator[i]));
@@ -132,7 +132,7 @@ public class Exersice03 {
 			
 			setLabelLocation();
 		}
-		
+		//매개변수로 연산자를 받아 해당하는 연산을 수행해 연산 및 결과를 문자열로 반환
 		String setLable(String operator) {
 			int x = Integer.parseInt(tfNum1.getText()); 
 			int y = Integer.parseInt(tfNum2.getText());
@@ -158,9 +158,8 @@ public class Exersice03 {
 			}
 			return x + operator + y + " = " + Integer.toString(result);
 		}
-		/*
-		 *
-		 */
+		//빈 라벨이 있다면 가장 가짜운 라벨에 있는 값으로 출력해
+		//라벨 위치에 칸이 없도록 한다
 		void setLabelLocation() {
 			for (int i = 0; i < 3; i++) {
 				if (labelArr.get(i).getText().equals("")) {
