@@ -16,7 +16,7 @@ import com.javalec.exercise.SemiLogin;
 public class Main {
 	public static void main(String[] args) {
 		Running r = new Running();
-		r.ex_03();
+		r.ex_02();
 	}
 	
 	

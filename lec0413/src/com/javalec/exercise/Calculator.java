@@ -192,6 +192,7 @@ public class Calculator {
 			rfResult = new JTextField();
 			rfResult.setBounds(108, 6, 183, 85);
 			rfResult.setColumns(10);
+			rfResult.setText("0");
 		}
 		return rfResult;
 	}
@@ -202,7 +203,7 @@ public class Calculator {
 			btnClear = new JButton("c");
 			btnClear.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
-					result = "";
+					result = "0";
 					printResult();
 				}
 			});
