@@ -1,5 +1,7 @@
 package com.javajec.controller;
 
+import java.util.Scanner;
+
 import com.javalec.base.UseCheckBox01;
 import com.javalec.base.UseComboBox01;
 import com.javalec.exercise.Exercise01;
@@ -12,6 +14,7 @@ public class Main {
 	public static void main(String[] args) {
 		Running r = new Running();
 		r.exer_03();
+
 	}
 	
 	static class Running{
