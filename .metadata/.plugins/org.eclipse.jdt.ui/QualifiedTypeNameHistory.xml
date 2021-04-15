@@ -52,9 +52,12 @@
     <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.Calculator"/>
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="com.javalec.base.MainPage"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.LoginEx"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.library.data.Student"/>
+    <fullyQualifiedTypeName name="com.library.data.Book"/>
+    <fullyQualifiedTypeName name="com.library.data.RentalData"/>
 </qualifiedTypeNameHistroy>
