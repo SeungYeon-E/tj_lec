@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
-    <fullyQualifiedTypeName name="com.javalec.function.AddNum"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise.Add"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise.Sub"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise.Mul"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise.Div"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise.Calc"/>
-    <fullyQualifiedTypeName name="java.lang.Boolean"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise2.Gugudan"/>
-    <fullyQualifiedTypeName name="com.javalec.exercise3.Sumsum"/>
-    <fullyQualifiedTypeName name="com.javalec.exercis4.Gagam"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.javalec.inheritance.DmbCellPhone"/>
-    <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop1"/>
     <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop2"/>
     <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop3"/>
     <fullyQualifiedTypeName name="com.javalec.ingeritance2.StoreHQ"/>
@@ -54,10 +38,26 @@
     <fullyQualifiedTypeName name="javax.swing.JButton"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="com.javalec.base.MainPage"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.LoginEx"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.library.data.Student"/>
     <fullyQualifiedTypeName name="com.library.data.Book"/>
     <fullyQualifiedTypeName name="com.library.data.RentalData"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.javalec.modle.DMBS"/>
+    <fullyQualifiedTypeName name="com.javalec.view.AddressInsert"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="com.javalec.view.AddressQuery"/>
+    <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
+    <fullyQualifiedTypeName name="javax.swing.table.TableColumn"/>
+    <fullyQualifiedTypeName name="com.javalec.modle.DBMS"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
