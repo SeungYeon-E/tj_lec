@@ -4,6 +4,8 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import java.awt.BorderLayout;
+import java.awt.Color;
+
 import javax.swing.JPanel;
 import javax.swing.JButton;
 import javax.swing.GroupLayout;
@@ -50,6 +52,7 @@ public class MainFrame {
 		frame.getContentPane().setLayout(null);
 		
 		JPanel leftPanel = new JPanel();
+		leftPanel.setBackground(Color.gray);
 		leftPanel.setBounds(0, 0, 100, 272);
 		frame.getContentPane().add(leftPanel);
 		leftPanel.setLayout(null);
@@ -87,7 +90,7 @@ public class MainFrame {
 		frame.getContentPane().remove(rightPanel);
 		
 		rightPanel = pa.get();
-		rightPanel.setBounds(106, 0, 394, 272);
+		rightPanel.setBounds(100, 0, 400, 272);
 		frame.getContentPane().add(rightPanel);
 		frame.revalidate();
 		frame.repaint();
@@ -99,7 +102,7 @@ public class MainFrame {
 		frame.getContentPane().remove(rightPanel);
 		
 		rightPanel = pb.get();
-		rightPanel.setBounds(106, 0, 394, 272);
+		rightPanel.setBounds(100, 0, 400, 272);
 		frame.getContentPane().add(rightPanel);
 		frame.revalidate();
 		frame.repaint();
