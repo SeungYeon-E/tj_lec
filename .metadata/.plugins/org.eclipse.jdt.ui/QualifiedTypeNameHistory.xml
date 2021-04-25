@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop2"/>
     <fullyQualifiedTypeName name="com.javalec.ingeritance2.Shop3"/>
     <fullyQualifiedTypeName name="com.javalec.ingeritance2.StoreHQ"/>
     <fullyQualifiedTypeName name="com.javalec.inheritance.ex2.ThrowsClass"/>
@@ -26,7 +25,6 @@
     <fullyQualifiedTypeName name="javax.swing.JRadioButton"/>
     <fullyQualifiedTypeName name="javax.swing.JLabel"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.model02"/>
-    <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.Exercise02"/>
     <fullyQualifiedTypeName name="com.javajec.controller.Main"/>
     <fullyQualifiedTypeName name="com.javalec.exercise.Exersice03"/>
@@ -52,12 +50,14 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.javalec.modle.DMBS"/>
     <fullyQualifiedTypeName name="com.javalec.view.AddressInsert"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
     <fullyQualifiedTypeName name="com.javalec.view.AddressQuery"/>
     <fullyQualifiedTypeName name="javax.swing.table.DefaultTableModel"/>
     <fullyQualifiedTypeName name="javax.swing.table.TableColumn"/>
     <fullyQualifiedTypeName name="com.javalec.modle.DBMS"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.ButtonGroup"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
 </qualifiedTypeNameHistroy>
